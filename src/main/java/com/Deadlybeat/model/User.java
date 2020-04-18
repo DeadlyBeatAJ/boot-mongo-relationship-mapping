@@ -8,6 +8,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Document(collection ="order_DB")
 public class User {
 
+	//priamry key,no gegerated value
 	@Id
 	private int id;
 	private String name;
